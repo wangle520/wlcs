@@ -1,0 +1,781 @@
+[
+    {
+        "name": "lightswitch05/php-version-audit",
+        "version": "1.8.16",
+        "version_normalized": "1.8.16.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/lightswitch05/php-version-audit.git",
+            "reference": "281af495dbc9155fe7bfb3bef44c7edc5057988e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/lightswitch05/php-version-audit/zipball/281af495dbc9155fe7bfb3bef44c7edc5057988e",
+            "reference": "281af495dbc9155fe7bfb3bef44c7edc5057988e",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "php": ">=7.2.0"
+        },
+        "require-dev": {
+            "codeception/codeception": "^4.1",
+            "codeception/module-asserts": "^1.3",
+            "ext-dom": "*",
+            "ext-libxml": "*",
+            "ext-zip": "*",
+            "ext-zlib": "*",
+            "vimeo/psalm": "^4.1"
+        },
+        "time": "2020-12-03 13:21:45",
+        "bin": [
+            "php-version-audit"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "lightswitch05\\PhpVersionAudit\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "description": "A convenience tool to easily check a given PHP version against a regularly updated list of CVE exploits, new releases, and end of life dates",
+        "keywords": [
+            "Audit",
+            "cve",
+            "php",
+            "scanner",
+            "security",
+            "version",
+            "vulnerability"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-mbstring",
+        "version": "v1.23.1",
+        "version_normalized": "1.23.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-mbstring.git",
+            "reference": "9174a3d80210dca8daa7f31fec659150bbeabfc6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/9174a3d80210dca8daa7f31fec659150bbeabfc6",
+            "reference": "9174a3d80210dca8daa7f31fec659150bbeabfc6",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.1"
+        },
+        "suggest": {
+            "ext-mbstring": "For best performance"
+        },
+        "time": "2021-05-27 12:26:48",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-main": "1.23-dev"
+            },
+            "thanks": {
+                "name": "symfony/polyfill",
+                "url": "https://github.com/symfony/polyfill"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Mbstring\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for the Mbstring extension",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "mbstring",
+            "polyfill",
+            "portable",
+            "shim"
+        ]
+    },
+    {
+        "name": "psr/log",
+        "version": "1.1.4",
+        "version_normalized": "1.1.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/log.git",
+            "reference": "d49695b909c3b7628b6289db5479a1c204601f11"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/log/zipball/d49695b909c3b7628b6289db5479a1c204601f11",
+            "reference": "d49695b909c3b7628b6289db5479a1c204601f11",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2021-05-03 11:20:27",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Log\\": "Psr/Log/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "https://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for logging libraries",
+        "homepage": "https://github.com/php-fig/log",
+        "keywords": [
+            "log",
+            "psr",
+            "psr-3"
+        ]
+    },
+    {
+        "name": "symfony/debug",
+        "version": "v4.4.27",
+        "version_normalized": "4.4.27.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/debug.git",
+            "reference": "2f9160e92eb64c95da7368c867b663a8e34e980c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/debug/zipball/2f9160e92eb64c95da7368c867b663a8e34e980c",
+            "reference": "2f9160e92eb64c95da7368c867b663a8e34e980c",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.1.3",
+            "psr/log": "^1|^2|^3"
+        },
+        "conflict": {
+            "symfony/http-kernel": "<3.4"
+        },
+        "require-dev": {
+            "symfony/http-kernel": "^3.4|^4.0|^5.0"
+        },
+        "time": "2021-07-22 07:21:39",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Debug\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Provides tools to ease debugging PHP code",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/console",
+        "version": "v3.4.47",
+        "version_normalized": "3.4.47.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/console.git",
+            "reference": "a10b1da6fc93080c180bba7219b5ff5b7518fe81"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/console/zipball/a10b1da6fc93080c180bba7219b5ff5b7518fe81",
+            "reference": "a10b1da6fc93080c180bba7219b5ff5b7518fe81",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8",
+            "symfony/debug": "~2.8|~3.0|~4.0",
+            "symfony/polyfill-mbstring": "~1.0"
+        },
+        "conflict": {
+            "symfony/dependency-injection": "<3.4",
+            "symfony/process": "<3.3"
+        },
+        "provide": {
+            "psr/log-implementation": "1.0"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/config": "~3.3|~4.0",
+            "symfony/dependency-injection": "~3.4|~4.0",
+            "symfony/event-dispatcher": "~2.8|~3.0|~4.0",
+            "symfony/lock": "~3.4|~4.0",
+            "symfony/process": "~3.3|~4.0"
+        },
+        "suggest": {
+            "psr/log": "For using the console logger",
+            "symfony/event-dispatcher": "",
+            "symfony/lock": "",
+            "symfony/process": ""
+        },
+        "time": "2020-10-24 10:57:07",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Console\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Console Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "sunra/php-simple-html-dom-parser",
+        "version": "v1.5.2",
+        "version_normalized": "1.5.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sunra/php-simple-html-dom-parser.git",
+            "reference": "75b9b1cb64502d8f8c04dc11b5906b969af247c6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sunra/php-simple-html-dom-parser/zipball/75b9b1cb64502d8f8c04dc11b5906b969af247c6",
+            "reference": "75b9b1cb64502d8f8c04dc11b5906b969af247c6",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "ext-mbstring": "*",
+            "php": ">=5.3.2"
+        },
+        "time": "2016-11-22 22:57:47",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Sunra\\PhpSimple\\HtmlDomParser": "Src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Sunra",
+                "email": "sunra@yandex.ru",
+                "homepage": "https://github.com/sunra"
+            },
+            {
+                "name": "S.C. Chen",
+                "homepage": "http://sourceforge.net/projects/simplehtmldom/"
+            }
+        ],
+        "description": "Composer adaptation of: A HTML DOM parser written in PHP5+ let you manipulate HTML in a very easy way! Require PHP 5+. Supports invalid HTML. Find tags on an HTML page with selectors just like jQuery. Extract contents from HTML in a single line.",
+        "homepage": "https://github.com/sunra/php-simple-html-dom-parser",
+        "keywords": [
+            "dom",
+            "html",
+            "parser"
+        ]
+    },
+    {
+        "name": "psecio/versionscan",
+        "version": "1.5.4",
+        "version_normalized": "1.5.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/psecio/versionscan.git",
+            "reference": "6ead730422f9b1428f4e095c7e74b7e173ed026a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/psecio/versionscan/zipball/6ead730422f9b1428f4e095c7e74b7e173ed026a",
+            "reference": "6ead730422f9b1428f4e095c7e74b7e173ed026a",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.3.1",
+            "sunra/php-simple-html-dom-parser": "~1.5.0",
+            "symfony/console": "~2.1|~3.0"
+        },
+        "require-dev": {
+            "kherge/box": "~2.4",
+            "phpunit/phpunit": "4.2.*"
+        },
+        "time": "2019-05-03 15:38:53",
+        "bin": [
+            "bin/versionscan"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Psecio": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Chris Cornutt",
+                "email": "ccornutt@phpdeveloper.org",
+                "homepage": "http://www.phpdeveloper.org/"
+            }
+        ],
+        "description": "A PHP version scanner for reporting possible vulnerabilities",
+        "homepage": "https://github.com/psecio/versionscan.git",
+        "keywords": [
+            "scanner",
+            "security",
+            "version",
+            "vulnerability"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-php80",
+        "version": "v1.23.1",
+        "version_normalized": "1.23.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-php80.git",
+            "reference": "1100343ed1a92e3a38f9ae122fc0eb21602547be"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/1100343ed1a92e3a38f9ae122fc0eb21602547be",
+            "reference": "1100343ed1a92e3a38f9ae122fc0eb21602547be",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.1"
+        },
+        "time": "2021-07-28 13:41:28",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-main": "1.23-dev"
+            },
+            "thanks": {
+                "name": "symfony/polyfill",
+                "url": "https://github.com/symfony/polyfill"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Php80\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ],
+            "classmap": [
+                "Resources/stubs"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ion Bazan",
+                "email": "ion.bazan@gmail.com"
+            },
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "polyfill",
+            "portable",
+            "shim"
+        ]
+    },
+    {
+        "name": "symfony/event-dispatcher-contracts",
+        "version": "v1.1.9",
+        "version_normalized": "1.1.9.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/event-dispatcher-contracts.git",
+            "reference": "84e23fdcd2517bf37aecbd16967e83f0caee25a7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/84e23fdcd2517bf37aecbd16967e83f0caee25a7",
+            "reference": "84e23fdcd2517bf37aecbd16967e83f0caee25a7",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.1.3"
+        },
+        "suggest": {
+            "psr/event-dispatcher": "",
+            "symfony/event-dispatcher-implementation": ""
+        },
+        "time": "2020-07-06 13:19:58",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1-dev"
+            },
+            "thanks": {
+                "name": "symfony/contracts",
+                "url": "https://github.com/symfony/contracts"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Contracts\\EventDispatcher\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Generic abstractions related to dispatching event",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "abstractions",
+            "contracts",
+            "decoupling",
+            "interfaces",
+            "interoperability",
+            "standards"
+        ]
+    },
+    {
+        "name": "symfony/event-dispatcher",
+        "version": "v4.4.27",
+        "version_normalized": "4.4.27.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/event-dispatcher.git",
+            "reference": "958a128b184fcf0ba45ec90c0e88554c9327c2e9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/958a128b184fcf0ba45ec90c0e88554c9327c2e9",
+            "reference": "958a128b184fcf0ba45ec90c0e88554c9327c2e9",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.1.3",
+            "symfony/event-dispatcher-contracts": "^1.1",
+            "symfony/polyfill-php80": "^1.16"
+        },
+        "conflict": {
+            "symfony/dependency-injection": "<3.4"
+        },
+        "provide": {
+            "psr/event-dispatcher-implementation": "1.0",
+            "symfony/event-dispatcher-implementation": "1.1"
+        },
+        "require-dev": {
+            "psr/log": "^1|^2|^3",
+            "symfony/config": "^3.4|^4.0|^5.0",
+            "symfony/dependency-injection": "^3.4|^4.0|^5.0",
+            "symfony/error-handler": "~3.4|~4.4",
+            "symfony/expression-language": "^3.4|^4.0|^5.0",
+            "symfony/http-foundation": "^3.4|^4.0|^5.0",
+            "symfony/service-contracts": "^1.1|^2",
+            "symfony/stopwatch": "^3.4|^4.0|^5.0"
+        },
+        "suggest": {
+            "symfony/dependency-injection": "",
+            "symfony/http-kernel": ""
+        },
+        "time": "2021-07-23 15:41:52",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\EventDispatcher\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Provides tools that allow your application components to communicate with each other by dispatching events and listening to them",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/lock",
+        "version": "v4.4.27",
+        "version_normalized": "4.4.27.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/lock.git",
+            "reference": "6ca476d4ac992802f2a4043929f68f1818449486"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/lock/zipball/6ca476d4ac992802f2a4043929f68f1818449486",
+            "reference": "6ca476d4ac992802f2a4043929f68f1818449486",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.1.3",
+            "psr/log": "^1|^2|^3",
+            "symfony/polyfill-php80": "^1.16"
+        },
+        "conflict": {
+            "doctrine/dbal": "<2.6"
+        },
+        "require-dev": {
+            "doctrine/dbal": "^2.6|^3.0",
+            "predis/predis": "~1.0"
+        },
+        "time": "2021-07-23 15:41:52",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Lock\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jérémy Derussé",
+                "email": "jeremy@derusse.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Creates and manages locks, a mechanism to provide exclusive access to a shared resource",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "cas",
+            "flock",
+            "locking",
+            "mutex",
+            "redlock",
+            "semaphore"
+        ]
+    },
+    {
+        "name": "symfony/process",
+        "version": "v4.4.27",
+        "version_normalized": "4.4.27.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/process.git",
+            "reference": "0b7dc5599ac4aa6d7b936c8f7d10abae64f6cf7f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/process/zipball/0b7dc5599ac4aa6d7b936c8f7d10abae64f6cf7f",
+            "reference": "0b7dc5599ac4aa6d7b936c8f7d10abae64f6cf7f",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.1.3",
+            "symfony/polyfill-php80": "^1.16"
+        },
+        "time": "2021-07-23 15:41:52",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Process\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Executes commands in sub-processes",
+        "homepage": "https://symfony.com"
+    }
+]

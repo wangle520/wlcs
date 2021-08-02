@@ -1,0 +1,9 @@
+{
+    "require": {
+        "lightswitch05/php-version-audit": "~1.0",
+        "psecio/versionscan": "^1.5",
+        "symfony/event-dispatcher": "^4.4",
+        "symfony/lock": "^4.4",
+        "symfony/process": "^4.4"
+    }
+}
